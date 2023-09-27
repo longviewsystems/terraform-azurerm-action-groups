@@ -6,11 +6,6 @@ variable "action_group_name" {
   type        = string
 }
 
-variable "alert_resource_group_name" {
-  description = "The name of the Azure resource group where the Action Group will be created."
-  type        = string
-}
-
 variable "short_name" {
   description = "The short name of the Action Group."
   type        = string
